@@ -1,0 +1,31 @@
+class Car {
+  String brand = '';
+  String model = '';
+  int year ;
+
+  Car ({
+    required this.brand,
+    required this.model,
+    required this.year,
+});
+
+  String getBrand (){
+    return brand;
+  }
+
+  String getModel (){
+    return model;
+  }
+
+  int getYear (){
+    return year;
+  }
+
+  int carAge () {
+    return DateTime.now().year - year;
+
+}
+
+
+
+}
