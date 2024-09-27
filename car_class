@@ -9,18 +9,6 @@ class Car {
     required this.year,
 });
 
-  String getBrand (){
-    return brand;
-  }
-
-  String getModel (){
-    return model;
-  }
-
-  int getYear (){
-    return year;
-  }
-
   int carAge () {
     return DateTime.now().year - year;
 
